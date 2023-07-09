@@ -3,7 +3,7 @@ jobs:
   build-medium:
     machine:
       image: ubuntu-2004:202101-01
-    resource_class: arm.medium
+    resource_class: arm.2xlarge
     steps:
       - run: uname -a
       - run: echo "Hello, Arm!"
